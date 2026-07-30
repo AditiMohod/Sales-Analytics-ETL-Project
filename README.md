@@ -12,6 +12,8 @@ Store cleaned data in MySQL
 Perform SQL-based business analysis
 Create an interactive Tableau dashboard
 Generate actionable business insights
+
+
 🛠 Tech Stack
 
 Python 3.11
@@ -22,6 +24,8 @@ MySQL 8.0
 SQL
 Tableau Public
 VS Code
+
+
 📂 Project Structure
 
 Sales_ETL_Project/ │ ├── cleaned_data/ │ └── cleaned_sales.csv │ ├── data/ │ └── superstore.csv │ ├── screenshots/ │ ├── project_structure.png │ ├── python_etl.png │ ├── mysql_load.png │ ├── sql_queries.png │ └── tableau_dashboard.png │ ├── src/ │ ├── clean_data.py │ ├── load_mysql.py │ └── test_connection.py │ ├── tableau/ │ ├── Sales_Performance_Dashboard.twb │ └── dashboard.png │ ├── requirements.txt ├── README.md └── .gitignore
@@ -30,11 +34,14 @@ Sales_ETL_Project/ │ ├── cleaned_data/ │ └── cleaned_sales.csv �
 
 Raw CSV │ ▼ Python (Pandas) │ ▼ Data Cleaning │ ▼ Clean CSV │ ▼ MySQL Database │ ▼ SQL Analysis │ ▼ Tableau Dashboard
 
+
 📈 Dashboard KPIs
 
 Total Sales
 Total Profit
 Total Orders
+
+
 📊 Dashboard Visualizations
 
 Sales by Category
@@ -44,6 +51,8 @@ Top 10 Customers
 Profit by Sub-Category
 Category Distribution
 Interactive Filters
+
+
 💡 Business Insights
 
 Technology category generated the highest sales.
@@ -51,6 +60,8 @@ West region contributed the highest revenue.
 A small group of customers generated a significant portion of sales.
 Monthly sales trends helped identify seasonal performance.
 Profit varied across product sub-categories.
+
+
 🚀 Future Improvements
 
 Automate the ETL pipeline using Apache Airflow
