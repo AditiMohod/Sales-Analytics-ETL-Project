@@ -58,7 +58,9 @@ Store configuration using environment variables
 Add logging and exception handling
 Deploy the dashboard online
 Build a Power BI version
-👨‍💻 Author Sarthak Akhare, Aditi Mohod
+
+👨‍💻 Author
+Sarthak Akhare, Aditi Mohod
 
 CDAC BDA Student
 Sales-Analytics-ETL-Project
